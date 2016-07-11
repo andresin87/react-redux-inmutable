@@ -1,5 +1,8 @@
 module.exports = {
   entry: './src/app.js',
+  script: {
+    "build": "webpack --debug"
+  },
   output: {
     path: __dirname,
     filename: 'bundle.js'
